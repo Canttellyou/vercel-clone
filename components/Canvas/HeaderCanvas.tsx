@@ -7,6 +7,7 @@ import React from "react";
 
 import fragmentShader from "./vercel.frag";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const glsl = (x: any) => x;
 
 const vertexShader = glsl`
